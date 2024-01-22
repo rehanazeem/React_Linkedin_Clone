@@ -1,7 +1,11 @@
+import LoginComponent from "../components/LoginComponent";
+
 const Login = () => {
   return (
-    <div className="bg-red-400 text-black-600 w-[1600px] h-[900px]">Login</div>
-  )
-}
+    <>
+      <LoginComponent />
+    </>
+  );
+};
 
-export default Login
+export default Login;
