@@ -14,10 +14,11 @@ const LoginComponent = () => {
   });
 
   const login = async () => {
+    
     try {
       const res = await LoginAPI(credentials.email, credentials.password);
       toast.success("Signed in to Linkedin!");
-      console.log("Done" , res)
+      console.log("Done", res);
       navigate("/home");
     } catch (err) {
       console.log(err);
