@@ -11,7 +11,7 @@ const Home = () => {
   useEffect(() => {
     onAuthStateChanged(auth, (res) => {
       if (!res?.accessToken) {
-        navigate("/");
+        navigate("/login");
       } else {
         setLoading(false);
       }

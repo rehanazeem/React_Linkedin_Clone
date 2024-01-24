@@ -115,7 +115,7 @@ const RegisterComponent = () => {
            Already on LinkedIn?{" "}
             <span
               className="text-blue-500 cursor-pointer"
-              onClick={() => navigate("/")}
+              onClick={() => navigate("/login")}
             >
               Sign in
             </span>
